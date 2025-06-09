@@ -10,17 +10,47 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Nike Tailwind</title>
 </head>
-<body class="w-[1200px] h-[700px] flex flex-col">
-    <div class="w-1/4 bg-[#4AE5D3] text-black row-end "></div>
-    <header class="bg-red-500 justify-content space-betwen">
-        <img class="" src="./img/logo-nike.png" alt="Logo">
-        <p class="text-bold text-[41px]">01</p>
+<body class="w-[1200px] h-[700px] font-[Oswald]">
+    <header class="h-[20%] flex flex-row justify-between">
+        <img class="w-[200px] h-[80px] pt-10 px-10" src="./img/logo-nike.png" alt="Logo">
+        <div class="flex gap-5 items-center w-[500px] justify-end">
+            <p class="font-bold text-[41px]">01</p>
+        <button class="bg-black hover:bg-gray-500 py-2 px-4 w-[76px] h-[38px]">
+            <img class="" src="./img/setas.png" alt="setas">
+        </button>
+        </div>
+        <div class="bg-[#4AE5D3] text-black w-[300px] relative h-[700px] pt-[60px] pl-[170px]"> 
+            <img class="w-[40px] h-[32px]" src="img/Burger.png" alt="sanduiche">
+        </div>
     </header>
-    <main>
-
+    <main class=" h-[65%] flex flex-row">
+        <div class="pt-[50px] pl-[30px]">
+            <img class="w-[15px] h-[295px]" src="./img/bolinhas laterais.png" alt="bolinhas">
+        </div>
+       <div class=" pt-[30px] flex flex-col gap-[160px] pl-[40px]">
+            <div class="flex flex-row gap-[60px] pl-[60px]">
+                <div class="w-[279px] h-[122px]">
+                    <div class="flex gap-3">
+                        <div class="font-extrabold pt-[10px]">__________________________________</div>
+                        <p class=" font-bold text-[41px] ">OUT </p> 
+                    </div>
+                    <p class=" font-bold text-[41px] ">OF COMPETITION </p> 
+                </div>
+                <div>
+                    <p class="w-[254px] h-[111px] font-normal text-[21px]">Stand out with the new Air Zoom G.T. Run, featuring a new cushioning in the heel.</p>
+                </div>
+            </div>
+            <div class="">
+                <button class="bg-black hover:bg-gray-500 hover:text-black text-white text-[20px] w-[191px] h-[43px] flex gap-2 justify-center items-center ">
+                    PRE - ORDER  
+                    <img class="w-[74px] h-[12px]" src="./img/seta-pre-order.png" alt="seta-preorder">
+                 </button>
+            </div>
+        </div>
+       <img class="absolute right-0" src="./img/tenis.png" alt="tenis"> 
     </main>
-    <footer>
-        <p class="text-bold text-[16px]">Copyright 2018 nike. All rights reserved.</p>
+    <footer class=" h-[15%]">
+        <p class="font-normal text-[16px] px-12">Copyright 2018 nike. All rights reserved.</p>
     </footer>
 </body>
 </html>
