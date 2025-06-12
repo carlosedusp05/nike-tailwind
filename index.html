@@ -10,47 +10,60 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Nike Tailwind</title>
 </head>
-<body class="w-[1200px] h-[700px] font-[Oswald]">
-    <header class="h-[20%] flex flex-row justify-between">
-        <img class="w-[200px] h-[80px] pt-10 px-10" src="./img/logo-nike.png" alt="Logo">
-        <div class="flex gap-5 items-center w-[500px] justify-end">
-            <p class="font-bold text-[41px]">01</p>
-        <button class="bg-black hover:bg-gray-500 py-2 px-4 w-[76px] h-[38px]">
-            <img class="" src="./img/setas.png" alt="setas">
-        </button>
-        </div>
-        <div class="bg-[#4AE5D3] text-black w-[300px] relative h-[700px] pt-[60px] pl-[170px]"> 
-            <img class="w-[40px] h-[32px]" src="img/Burger.png" alt="sanduiche">
+<body class="font-[Oswald]">
+    <header class="h-[20%] flex  w-[75%] pt-[30px] gap-[180px] pl-[40px] max-lg:gap-[160px] items-center max-sm:gap-[60px] max-sm:pt-[25px] max-sm:pl-[20px] ">
+        <img class="w-auto h-auto max-sm:w-[82px] max-sm:h-[28px] " src="./img/logo-nike.png" alt="Logo">
+        <div class="flex gap-5 items-center w-[35%] justify-end max-lg:flex max-lg:justify-normal max-sm:gap-[5px]">
+            <p class="font-bold text-[41px] max-sm:text-[20px]">01</p>
+            <button class="bg-black hover:bg-gray-500 py-2 px-4 w-[76px] h-[38px] max-sm:hidden">
+                <img class="" src="./img/setas.png" alt="setas">
+            </button>
+            <div class="sm:hidden max-sm:w-[58px] max-sm:h-[17px] flex flex-row gap-[20px]">
+                <button class="bg-black hover:bg-gray-500 max-sm:w-[17px] max-sm:h-[17px] flex justify-center pt-[2px]">
+                    <img class="rotate-180" src="./img/seta-celular.png" alt="seta-celular">
+                </button>
+                <button class="bg-black hover:bg-gray-500 max-sm:w-[17px] max-sm:h-[17px] flex justify-center pt-[2px]">
+                    <img class="bg-black hover:bg-gray-500" src="./img/seta-celular.png" alt="seta-celular">
+                </button>
+            </div>
         </div>
     </header>
-    <main class=" h-[65%] flex flex-row">
-        <div class="pt-[50px] pl-[30px]">
-            <img class="w-[15px] h-[295px]" src="./img/bolinhas laterais.png" alt="bolinhas">
+    <div class="bg-[#4AE5D3] text-black w-[25%] absolute pt-[60px] pl-[170px] h-full z-20 right-0 top-0  max-lg:pt-[60px] max-lg:px-[80px] max-sm:pt-[29px] max-sm:px-[35px]">
+        <img class="w-[40px] h-[32px] max-sm:absolute  max-sm:w-[25px]  max-sm:h-[19px]" src="img/Burger.png" alt="sanduiche">
+    </div>
+    <main class=" h-[65%] flex flex-row pt-[70px] max-sm:pt-[40px]">
+        <div class="pt-[50px] pl-[30px] max-lg:pt-[250px] max-lg:pl-[40px] max-sm:hidden">
+            <img class="w-[15px] h-[295px] max-lg:h-[369px] max-lg:w-[19px] " src="./img/bolinhas laterais.png" alt="bolinhas">
         </div>
-       <div class=" pt-[30px] flex flex-col gap-[160px] pl-[40px]">
-            <div class="flex flex-row gap-[60px] pl-[60px]">
-                <div class="w-[279px] h-[122px]">
+       <div class=" pt-[30px] flex flex-col gap-[160px] pl-[40px] max-lg:pt-[150px] max-sm:pl-[0px]  max-sm:pt-[50px]">
+            <div class="flex flex-row gap-[60px] pl-[60px] max-lg:flex-col max-lg:gap-[20px] max-sm:pl-[30px] max-sm:gap-0 max-sm:pt-[25px]">
+                <div class="w-[279px] h-[122px] max-sm:h-[100px]">
                     <div class="flex gap-3">
-                        <div class="font-extrabold pt-[10px]">__________________________________</div>
-                        <p class=" font-bold text-[41px] ">OUT </p> 
+                        <div class="font-extrabold pt-[10px] max-sm:hidden">__________________________________</div>
+                        <div class="font-extrabold pt-[0px] sm:hidden">___________________</div>
+                        <p class=" font-bold text-[41px] max-sm:text-[24px]">OUT </p>
                     </div>
-                    <p class=" font-bold text-[41px] ">OF COMPETITION </p> 
+                    <p class=" font-bold text-[41px] max-sm:text-[24px]">OF COMPETITION </p>
                 </div>
-                <div>
+                <div class="max-sm:hidden">
                     <p class="w-[254px] h-[111px] font-normal text-[21px]">Stand out with the new Air Zoom G.T. Run, featuring a new cushioning in the heel.</p>
                 </div>
+                <button class="bg-black hover:bg-gray-500 hover:text-black text-white text-[20px] w-[191px] h-[43px] flex gap-2 justify-center items-center lg:hidden max-sm:text-[16px] max-sm:w-[177px] max-sm:h-[34px]">
+                    PRE - ORDER  
+                    <img class="w-[74px] h-[12px]" src="./img/seta-pre-order.png" alt="seta-preorder">
+                 </button>
             </div>
             <div class="">
-                <button class="bg-black hover:bg-gray-500 hover:text-black text-white text-[20px] w-[191px] h-[43px] flex gap-2 justify-center items-center ">
+                <button class="bg-black hover:bg-gray-500 hover:text-black text-white text-[20px] w-[191px] h-[43px] flex gap-2 justify-center items-center max-lg:hidden ">
                     PRE - ORDER  
                     <img class="w-[74px] h-[12px]" src="./img/seta-pre-order.png" alt="seta-preorder">
                  </button>
             </div>
         </div>
-       <img class="absolute right-0" src="./img/tenis.png" alt="tenis"> 
+       <img class="absolute right-0 z-30 max-lg:pt-[400px] max-sm:pt-[250px] max-sm:w-[300px]" src="./img/tenis.png" alt="tenis">
     </main>
-    <footer class=" h-[15%]">
-        <p class="font-normal text-[16px] px-12">Copyright 2018 nike. All rights reserved.</p>
+    <footer class=" h-[15%] pt-[70px] max-lg:flex  max-lg:justify-center max-lg:pt-[280px] max-sm:pt-[140px] max-sm:justify-normal">
+        <p class="font-normal text-[16px] px-12 max-sm:text-[12px] max-sm:font-normal max-sm:px-[10px]">Copyright 2018 nike. All rights reserved.</p>
     </footer>
 </body>
 </html>
