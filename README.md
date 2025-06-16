@@ -1,13 +1,13 @@
 # Nike-tailwind
 
 ## Desktop
-![](./Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.11.26.png)
+![](./img/preview-desktop.png)
 
 ## Tablet
-![](./Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.12.18.png)
+![](./img/preview-tablet.png)
 
 ## Mobile
-![](./Captura%20de%20Tela%202025-06-16%20%C3%A0s%2016.13.14.png)
+![](./img/preview-mobile.png)
 
 ## Descrição
  Projeto usando tailwind.css para fazer uma página responsiva, desenvolvido durante as aulas na escola SENAI de Jandira.
